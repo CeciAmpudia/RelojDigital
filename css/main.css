@@ -1,0 +1,94 @@
+body {
+	background-image: url("../youngForever.jpg");
+	background-size: cover;
+	color: white !important;
+	font-size: 16px;
+}
+
+.wrap {
+	width: 100%;
+	margin: auto;
+	max-width: 736px;
+}
+
+.widget {
+	width: 100%;
+	margin: 20% 0;
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.date {
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 5px;
+	padding: 10px;
+	width: 100%;
+}
+
+.reloj {
+	width: 100%;
+	padding: 20px;
+	font-size: 10em;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+.mas {
+	width: 100%;
+	/*padding: 0 47%;*/
+}
+.btn-default {
+	border-radius: 50% !important;
+}
+.btn {
+	padding: 20px 30px !important;
+	font-size: 2em !important;
+	font-weight: 600 !important;
+    margin: 0 45% !important;
+}
+
+.ciudades {
+	background-color: white;
+	color: black;
+	padding: 10%;
+	width: 90%;
+	height: 1600px;
+	position: fixed;
+	top: 65px;
+	right: 45px;
+	font-size: 2em;
+	border-radius: 35px;
+}
+input {
+	margin-right: 10px !important;
+	margin-bottom: 5% !important;
+}
+
+.X {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: transparent;
+    font-weight: 600;
+}
+
+#ciudad {
+	font-size: 2em;
+}
+#ciudad .reloj {
+	text-align: right;
+}
+#boxCountry {
+	margin: 0 20%;
+}
+#boxCountry .reloj {
+	font-size: 2em;
+	margin-left: 50%;
+}
+.reloj p {
+	display: inline-block;
+}

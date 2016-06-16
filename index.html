@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Reloj Digital</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	</head>
+	<body>
+	
+		<div class="container">
+			<div class="col-xs-12">
+				
+				<div class="wrap" id="liveclock">
+					<div class="widget">
+					<!-- RELOJ -->
+						<div id="clock" class="reloj">
+							
+						</div>
+					<!-- FECHA -->
+						<div class="date">
+							<p id="dayWeek"></p>
+							<p>,</p>
+							<p id="day"></p>
+							<p>de </p>
+							<p id="month"></p>
+						</div>
+
+					</div>
+				</div>
+				
+				<div class="mas" id="add">
+
+					<div id="boxCountry">
+						
+					</div>
+				<!-- BOTON -->
+					<button type="button" class="btn btn-default add"> + </button>
+				<!-- CIUDADES -->
+					<form id="country" action="" class="ciudades">
+						
+						<button type="button" id="X" class="X"> X </button>
+						
+						<input id="chicago" type="checkbox" name="country" value="Chicago">Chicago
+						<br>
+						<input id="sauPaulo" type="checkbox" name="country" value="Sau">Sau Paulo
+						<br>
+						<input id="santiago" type="checkbox" name="country" value="Santiago">Santiago
+						<br>
+						<input id="mexico" type="checkbox" name="country" value="Mexico">México D.F
+						<br>
+						<input id="caracas" type="checkbox" name="country" value="Caracas">Caracas
+						<br>
+						<input id="brasilia" type="checkbox" name="country" value="Brasilia">Brasilia
+						<br>
+						<input id="quito" type="checkbox" name="country" value="Quito">Quito
+						<br>
+						<input id="guayaquil" type="checkbox" name="country" value="Guayaquil">Guayaquil
+						<br>
+						<input id="santaMaria" type="checkbox" name="country" value="Maria">Santa Maria
+						<br>
+						<input id="bogota" type="checkbox" name="country" value="Bogota">Bogotá
+						
+					</form>
+
+				</div>
+
+
+				
+
+			</div>
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</body>
+</html>
